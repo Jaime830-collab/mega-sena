@@ -30,9 +30,11 @@ namespace MegaSena
             ordenar(numeros);
 
             // Apresenta os números na tela
+            Console.WriteLine("Os números sorteados foram!");
             foreach (int n in numeros)
             {
                 Console.Write(n + " ");
+                System.Threading.Thread.Sleep(1000);
             }
             Console.WriteLine();
         }
